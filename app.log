@@ -1,0 +1,58 @@
+2026-05-15 20:44:01,458 - main - INFO - Dataset downloaded to: C:\Users\aakas\.cache\kagglehub\datasets\thedevastator\unlock-profits-with-e-commerce-sales-data\versions\2
+2026-05-15 20:44:01,461 - main - INFO - Files in the dataset: [['Amazon Sale Report.csv', 'Cloud Warehouse Compersion Chart.csv', 'Expense IIGF.csv', 'International sale Report.csv', 'May-2022.csv', 'P  L March 2021.csv', 'Sale Report.csv']]
+2026-05-15 20:44:01,748 - main - INFO - First few rows of the dataset:
+   index      DATE  Months            CUSTOMER    Style             SKU Size   PCS    RATE GROSS AMT
+0      0  06-05-21  Jun-21  REVATHY LOGANATHAN  MEN5004    MEN5004-KR-L    L  1.00  616.56    617.00
+1      1  06-05-21  Jun-21  REVATHY LOGANATHAN  MEN5004   MEN5004-KR-XL   XL  1.00  616.56    617.00
+2      2  06-05-21  Jun-21  REVATHY LOGANATHAN  MEN5004  MEN5004-KR-XXL  XXL  1.00  616.56    617.00
+3      3  06-05-21  Jun-21  REVATHY LOGANATHAN  MEN5009    MEN5009-KR-L    L  1.00  616.56    617.00
+4      4  06-05-21  Jun-21  REVATHY LOGANATHAN  MEN5011    MEN5011-KR-L    L  1.00  616.56    617.00
+2026-05-15 20:44:01,799 - main - INFO - Information about the dataset:
+None
+2026-05-15 20:44:01,819 - main - INFO - Description of the dataset:
+              index
+count  37432.000000
+mean   18715.500000
+std    10805.831975
+min        0.000000
+25%     9357.750000
+50%    18715.500000
+75%    28073.250000
+max    37431.000000
+2026-05-15 20:44:02,110 - main - INFO - Dataset saved as international_sales_data.csv
+2026-05-15 22:15:15,482 - main - INFO - Data extracted successfully.
+2026-05-15 22:15:15,484 - main - INFO - Created a copy of the dataframe.
+2026-05-15 22:15:15,485 - main - INFO - Extracted 37,432 rows and 10 columns.
+2026-05-15 22:15:15,485 - main - INFO - Starting data transformation.
+2026-05-15 22:15:15,523 - main - INFO - Removed 0 duplicate rows.
+2026-05-15 22:15:15,570 - main - INFO - Numerical columns imputed: ['PCS', 'RATE', 'GROSS AMT']
+2026-05-15 22:15:15,608 - main - INFO - Categorical columns imputed: ['Months', 'CUSTOMER', 'Style', 'SKU', 'Size']
+2026-05-15 22:15:15,616 - main - INFO - Date column imputed successfully via linear time interpolation.
+2026-05-15 22:15:15,617 - main - INFO - Data transformation complete. 37,432 records ready.
+2026-05-15 22:15:15,617 - main - INFO - Connecting to database: sales_data.db
+2026-05-15 22:15:15,645 - main - INFO - Db schema initialized to schema.sql
+2026-05-15 22:15:15,679 - main - ERROR - Error loading data: Execution failed
+2026-05-15 22:17:00,839 - main - INFO - Data extracted successfully.
+2026-05-15 22:17:00,841 - main - INFO - Created a copy of the dataframe.
+2026-05-15 22:17:00,841 - main - INFO - Extracted 37,432 rows and 10 columns.
+2026-05-15 22:17:00,842 - main - INFO - Starting data transformation.
+2026-05-15 22:17:00,878 - main - INFO - Removed 0 duplicate rows.
+2026-05-15 22:17:00,923 - main - INFO - Numerical columns imputed: ['PCS', 'RATE', 'GROSS AMT']
+2026-05-15 22:17:00,961 - main - INFO - Categorical columns imputed: ['Months', 'CUSTOMER', 'Style', 'SKU', 'Size']
+2026-05-15 22:17:00,968 - main - INFO - Date column imputed successfully via linear time interpolation.
+2026-05-15 22:17:00,969 - main - INFO - Data transformation complete. 37,432 records ready.
+2026-05-15 22:17:00,969 - main - INFO - Connecting to database: sales_data.db
+2026-05-15 22:17:00,998 - main - INFO - Db schema initialized to schema.sql
+2026-05-15 22:17:01,027 - main - ERROR - Error loading data: Execution failed
+2026-05-15 22:17:59,313 - main - INFO - Data extracted successfully.
+2026-05-15 22:17:59,315 - main - INFO - Created a copy of the dataframe.
+2026-05-15 22:17:59,316 - main - INFO - Extracted 37,432 rows and 10 columns.
+2026-05-15 22:17:59,316 - main - INFO - Starting data transformation.
+2026-05-15 22:17:59,352 - main - INFO - Removed 0 duplicate rows.
+2026-05-15 22:17:59,394 - main - INFO - Numerical columns imputed: ['PCS', 'RATE', 'GROSS AMT']
+2026-05-15 22:17:59,432 - main - INFO - Categorical columns imputed: ['Months', 'CUSTOMER', 'Style', 'SKU', 'Size']
+2026-05-15 22:17:59,439 - main - INFO - Date column imputed successfully via linear time interpolation.
+2026-05-15 22:17:59,440 - main - INFO - Data transformation complete. 37,432 records ready.
+2026-05-15 22:17:59,440 - main - INFO - Connecting to database: sales_data.db
+2026-05-15 22:17:59,482 - main - INFO - Db schema initialized to schema.sql
+2026-05-15 22:17:59,705 - main - INFO - Successfully loaded 37,432 records into clean schema.
